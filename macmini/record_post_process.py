@@ -73,7 +73,9 @@ def main():
     file_path = sys.argv[1]
 
     # vid
-    basename = os.path.basename(file_path).split(".")[0]
+    basename_int = os.path.basename(file_path).rsplit('.', 1)
+    basename_int = basename_int[0].replace('.',' ')
+    basename = basename_int
 
     # vid.ext
     file_name = os.path.basename(file_path)
