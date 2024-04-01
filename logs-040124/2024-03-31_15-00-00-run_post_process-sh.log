@@ -1,0 +1,24 @@
+/Volumes/Media/Jellyfin/Recordings/Movies/Quincy, M.E/Season 2/Quincy, M.E. S02E11 Sullied Be Thy Name.ts
+ffmpeg version 5.1.2 Copyright (c) 2000-2022 the FFmpeg developers
+  built with Apple clang version 14.0.0 (clang-1400.0.29.102)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/5.1.2 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[mpeg2video @ 0x7fe185704740] Invalid frame dimensions 0x0.
+    Last message repeated 19 times
+[mpegts @ 0x7fe1857044c0] PES packet size mismatch
+[mpegts @ 0x7fe1857044c0] Packet corrupt (stream = 1, dts = 851353990).
+Input #0, mpegts, from '/Volumes/Media/Jellyfin/Recordings/Movies/Quincy, M.E/Season 2/Quincy, M.E. S02E11 Sullied Be Thy Name.ts':
+  Duration: 00:59:55.90, start: 5864.128778, bitrate: 2403 kb/s
+  Program 2 
+  Stream #0:0[0x41]: Video: mpeg2video (Main) ([2][0][0][0] / 0x0002), yuv420p(tv, top first), 704x480 [SAR 40:33 DAR 16:9], Closed Captions, 29.97 fps, 29.97 tbr, 90k tbn
+    Side data:
+      cpb: bitrate max/min/avg: 15000000/0/0 buffer size: 1835008 vbv_delay: N/A
+  Stream #0:1[0x44](eng): Audio: ac3 (AC-3 / 0x332D4341), 48000 Hz, stereo, fltp, 192 kb/s
+File '/Volumes/Media/Jellyfin/Recordings/Movies/Quincy, M.E/Season 2/Quincy, M.mp4' already exists. Overwrite? [y/N] Not overwriting - exiting
